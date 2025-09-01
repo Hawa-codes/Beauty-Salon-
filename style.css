@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  min-height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first-section {
+  background-image: linear-gradient(
+        rgba(83, 71, 63, 0.8),  
+        rgba(83, 71, 63, 0.8)
+      ),
+  url(./img/modern-beauty-salon-interior\ \(1\).jpg);
+  width: 100%;
+  height:580px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-size: 100% 100%;   
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  top: -29px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 320px;
+}
+
+.head ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 39px;
+}
+
+.head li {
+  position: relative; 
+  cursor: pointer;    
+  transition: color 0.3s ease;
+}
+
+.head li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -22px;  
+  width: 0%;
+  height: 4px;
+  background: #edb6a2;
+  transition: width 0.3s ease; 
+}
+
+.head li:hover {
+  color: #eec1b0; 
+}
+
+.head li:hover::after {
+  width: 100%; 
+}
+
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.3s ease; 
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.head h4 {
+  color: #ffffff;
+}
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  background: #eec1b0;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 100px;
+  height: 30px;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.line1 {
+  background-color: #ffffff;
+  height: 4px;
+  width: 1200px;
+  /* position: relative;
+  left: 3px; */
+}
+/* .wave-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: #fbb8a9; 
+  position: relative;
+}
+
+.wave-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23fbb8a9" fill-opacity="1" d="M0,224L60,229.3C120,235,240,245,360,224C480,203,600,149,720,122.7C840,96,960,96,1080,128C1200,160,1320,224,1380,256L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>') no-repeat;
+  background-size: cover;
+  z-index: -1;
+} 
+  .wave-section {
+  background: #fbb8a9;
+  padding: 100px 20px;
+  text-align: center;
+  clip-path: ellipse(80% 60% at 50% 40%);
+}*/
