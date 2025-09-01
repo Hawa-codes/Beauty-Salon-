@@ -70,17 +70,6 @@ main {
   transition: color 0.3s ease;
 }
 
-.head li::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -22px;  
-  width: 0%;
-  height: 4px;
-  background: #edb6a2;
-  transition: width 0.3s ease; 
-}
-
 .head li:hover {
   color: #eec1b0; 
 }
@@ -89,13 +78,27 @@ main {
   width: 100%; 
 }
 
-
 a {
   text-decoration: none;
   color: #ffffff;
   transition: transform 0.3s ease; 
   font-size: 14px;
   font-weight: 500;
+}
+
+.nav-link.active {
+  color: #eec1b0;       
+  font-weight: bold;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+  width: 100%;
+  height: 4px;
+  background: #edb6a2;
 }
 
 .head h4 {
