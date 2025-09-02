@@ -288,6 +288,16 @@ a {
   margin-bottom: 50px;
 }
 
+.third-section {
+  background-color: #edb6a2;
+  width: 100%;
+  height:430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 
 
