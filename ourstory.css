@@ -215,7 +215,7 @@ a {
 
 .fs21 {
   position: relative;
-  top: 1px;
+  top: -2px;
 }
 
 .ss p {
@@ -328,4 +328,60 @@ a {
   flex-direction: column;
   align-items: center;
   padding-top: 0.6rem;
+}
+
+.sixth-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 380px;
+  padding: 0 10rem;
+  background-color: #feebe5;
+}
+
+.curve {
+  width: 185px;
+  height: 170px;
+}
+
+.sixth2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sixsec {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.sixsec2 {
+  margin-left: 30px;
+  padding-left: 20px;
+}
+
+.sixsec3 {
+  width: 20px;
+  height: 20px;
+}
+
+.sixsec1 {
+  gap: 17px;
+}
+
+.sixsec1 span {
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 26px;
+}
+
+.sixsec1 p {
+  font-size: 9px;
+  text-align: center;   
+  line-height: 1.5;     
 }
