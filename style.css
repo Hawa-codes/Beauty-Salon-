@@ -87,7 +87,6 @@ a {
 
 .nav-link.active {
   color: #eec1b0;       
-  font-weight: bold;
 }
 
 .nav-link.active::after {
