@@ -184,6 +184,7 @@ a {
   font-weight: 700;
   color: black;
   padding-bottom: 20px;
+  margin-top: 1rem;
 }
 
 .row1, .row2 {
@@ -209,6 +210,12 @@ a {
 .ss span {
   font-size: 14px;
   font-weight: 600;
+  line-height: 1rem;
+}
+
+.fs21 {
+  position: relative;
+  top: 1px;
 }
 
 .ss p {
@@ -230,4 +237,95 @@ a {
   height: 35px;
   font-weight: bold;
   font-size: 10px;
+  margin-bottom: 1rem;
+}
+
+.third-section {
+  background-color: #fde4db;
+  width: 100%;
+  height:420px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.makeup-artits {
+  width: auto;
+  height: 320px;
+  padding-left: 140px;
+  object-fit: contain;
+}
+
+.ts1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 100px;
+}
+
+.fourth-section {
+  background-color: #fccab8;
+  width: 100%;
+  height:420px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-pic {
+  width: auto;
+  height: 400px;
+  object-fit: contain;
+  margin-top: 23px;
+}
+
+.fs1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 175px;
+  text-align: center;
+}
+
+.fifth-section {
+  width: 100%;
+  height: 400px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  gap: 14rem;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fifth span {
+  font-size: 10px;
+  color: rgb(181, 180, 180);
+}
+
+.mobile, .clock, .location {
+  width: 6rem;
+  height: 6rem;
+}
+
+.fs2, .fs3, .fs4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.6rem;
 }
