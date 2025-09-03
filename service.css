@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  min-height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first-section {
+  background-color: #fde4db;
+  width: 100%;
+  height: 415px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  top: 20px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40.5px;
+  gap: 310px;  
+}
+
+.head ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 39px;
+}
+
+.head li {
+  position: relative; 
+  cursor: pointer;    
+  transition: color 0.3s ease;
+}
+
+.head li:hover {
+  color: #eec1b0; 
+}
+
+.head li:hover::after {
+  width: 100%; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease; 
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: #eec1b0;       
+  font-weight: bold;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+  width: 100%;
+  height: 4.3px;
+  background: #edb6a2;
+}
+
+.head h4 {
+  color: black;
+}
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  background: #eec1b0;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 100px;
+  height: 30px;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.line1 {
+  background-color: black;
+  height: 4px;
+  width: 1200px;
+  margin-top: -1.7rem;
+}
+
+.h-word {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16rem;
+  gap: 6rem;
+}
+
+.hword1 {
+  text-align: center;
+  /* gap: 6rem; */
+}
+
+.hword1 h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hword1 p {
+    font-size: 13px;
+    padding-top: 1.5rem;
+}
+
+.service-menu {
+  width: 21.85rem;
+  height: auto;
+}
+
+.hword2 {
+    position: relative;
+    top: 1.2rem;
+    left: 11.75rem;
+}
