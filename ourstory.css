@@ -25,7 +25,6 @@ main {
   height: 420px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
 }
 
 .header {
@@ -157,10 +156,8 @@ a {
 
 .img-bottom {
   position: relative;
-  top: -8.5rem;  /* bring it closer */
-  opacity: 0.6; /* reflection effect */
+  top: -8.5rem;  
   z-index: 1;
-  left: rem;
 }
 
 .ppic1, .ppic2 {
