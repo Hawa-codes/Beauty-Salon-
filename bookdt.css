@@ -198,31 +198,90 @@ a {
 .right-panel {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  padding: 2rem 0rem;
+  gap: 1.4rem;
 }
 
-.select-btn {
-  display: flex;
-  justify-content: space-between;
-  background-color: transparent; 
-  border: 1px solid black;
-  padding: 9px;
-  border-radius: 6px;
-  outline: none;
-  font-size: 12px;
-  width: 450px;
-  box-sizing: border-box;
+.right-panel h4 {
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+    padding: 0rem 3rem;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 0.5rem;
-  padding: 6rem 4rem;
-  margin-top: -3rem;
+.right-panel1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    padding: 0rem 3rem;
+}
+
+select {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent; 
+    border: 1px solid #d8cfcf;
+    padding: 9px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 12px;
+    width: 190px;
+    height: 30px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.right-panel2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: -10px;
+    padding: 0rem 3rem;
+}
+
+.ash, .pink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.ash h5, .pink h5 {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.ash span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: #bcb2b2;
+    width: 2rem;
+    height: 1.6rem;
+    font-size: 10px;
+    padding: 2px 2px;
+}
+
+.pink span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: #f0bbdf;
+    width: 2rem;
+    height: 1.6rem;
+    font-size: 10px;
+    padding: 2px 2px;
+}
+
+.another-month {
+    color: #625d5d;
 }
 
 .right-panel hr {
@@ -231,34 +290,8 @@ form {
   background-color: rgb(205, 201, 201); 
   width: 100%;
   margin-top: -2.8rem;
-}
-
-.dropdown-content {
-  margin-top: 1rem;
-  background-color: #ffffff;
-  box-shadow: 0 6px 8px rgba(0,0,0,0.3);
-  border-radius: 9px;
-}
-
-.category {
-  font-size: 10px;
-  font-weight: bold;
-  color: #3b3838;
-  padding: 4px 20px;
-  
-}
-
-.option {
-  display: flex;
-  justify-content: space-between;
-  cursor: pointer;
-  font-size: 9px;
-  font-weight: bold;
-  padding: 8px 20px;
-}
-
-.option:hover {
-  background-color: #f0f0f0;
+  position: relative;
+  bottom: -40px;
 }
 
 .continue-btn, .back-btn {
@@ -278,8 +311,8 @@ form {
   font-size: 10px;
   font-weight: 600;
   position: relative;
-  bottom: 0.3rem;
-  left: 10rem;
+  bottom: -1.6rem;
+  left: 18rem;
 }
 
 .bttn {
