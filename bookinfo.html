@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bookservice.css">
-    <title>Book Appointment Service</title>
+    <link rel="stylesheet" href="bookinfo.css">
+    <title>Book Appointment Time</title>
 </head>
 <body>
     <main>
@@ -36,39 +36,21 @@
         <section class="second-section">
             <section class="container">
                 <div class="left-pannel">
-                    <span><a href="bookservice.html" class="Service-btn activee">Service Selection</a></span>
+                    <span><a href="bookservice.html" class="Service-btn">Service Selection</a></span>
                     <span><a href="bookdt.html" class="DT-btn">Date & Time</a></span>
-                    <span><a href="bookinfo.html" class="info-btn">Your Information</a></span>
+                    <span><a href="bookinfo.html" class="info-btn activee">Your Information</a></span>
                 </div>
                 <div class="right-panel">
-                    <form action="#">
-                        <label for="service">Service <span style="color:red">*</span></label>
-                        <div class="dropdown">
-                            <button class="select-btn">Select Service <span>▼</span></button>
-                            <div class="dropdown-content">
-                                <div class="category">Category</div>
-                                <div class="option">
-                                <span>Hair</span><span>Rs : 1500</span>
-                                </div>
-                                <div class="option">
-                                <span>Makeup</span><span>Rs : 3000</span>
-                                </div>
-                                <div class="option">
-                                <span>Manicure Pedicure</span><span>Rs : 2000</span>
-                                </div>
-                                <div class="option">
-                                <span>Skincare</span><span>Rs : 1500</span>
-                                </div>
-                                <div class="option">
-                                <span>Facial</span><span>Rs : 1500</span>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                    <h4>Your Information<span style="color:red">*</span></h4>
+                    <section class="right-panel1">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email Address" required>
+                        <input type="tel" name="Phone" placeholder="Phone number" required>
+                    </section>
                     <hr>
                     <div class="bttn">
-                        <a href="book.html" class="back-btn">Back</a>
-                        <a href="bookdt.html" class="continue-btn">Continue</a>
+                        <a href="booktime.html" class="back-btn">Back</a>
+                        <a href="#" class="continue-btn">Continue</a>
                     </div>
                 </div>
             </section>
@@ -95,4 +77,3 @@
     </main>
 </body>
 </html>
-
