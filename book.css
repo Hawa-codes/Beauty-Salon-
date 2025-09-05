@@ -200,6 +200,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding-top: -5rem;
 }
 
 .select-btn {
@@ -210,7 +211,7 @@ a {
   padding: 9px;
   border-radius: 6px;
   outline: none;
-  font-size: 14px;
+  font-size: 12px;
   width: 450px;
   box-sizing: border-box;
 }
@@ -308,20 +309,3 @@ form {
   text-align: center;   
   line-height: 1.5; 
 }
-
-
-
-
-
-
-
-/*
-select {
-  width: 100%;                
-  padding: 10px 40px 10px 12px; 
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  background-color: #fff;
-  cursor: pointer;
-}*/
